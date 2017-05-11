@@ -1,4 +1,4 @@
-MERLIN install guide
+# MERLIN install guide
 
 # Make sure ~/git/merlin-eclipse not not currenly in use
 
