@@ -11,7 +11,8 @@
 - select Clone from URI > next
 - copy "https://github.com/scottmrowan/merlin-eclipse" into URI (the rest should autocomplete) > next
 - make sure only master branch is selected > next
-- make sure both MerlinLibrary and UserProject are selected > next > finish
+- make sure Import existing Eclipse projects is selected > next
+- make sure both MerlinLibrary and UserProject are selected > finish
 
 # wait for download (should be % indexer bottom right of workspace window)
 
