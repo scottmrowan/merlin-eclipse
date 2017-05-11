@@ -8,13 +8,16 @@
 
 #include <iostream>
 
-//Included arbitrary MerlinLibrary header file to qualify link config
+//Included arbitrary library header file to qualify link configuration
 #include "AcceleratorComponent.h"
 
 using namespace std;
 
 int main() {
-	cout << "Success!! You have successfully built and run MERLIN program!" << endl;
+	cout << "Success!! Welcome to MERLIN!\n" << endl;
+	cout << "Current MERLIN version: 4.9.01" << endl;
+	cout << "For more information, please refer to our User Guide,\nurl: 'https://github.com/scottmrowan/merlin-eclipse/UserGuide/" << endl;
+
 	/*
 	 * ENTER CODE HERE
 	 */
