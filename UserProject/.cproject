@@ -40,15 +40,13 @@
 									<listOptionValue builtIn="false" value="MerlinLibrary"/>
 								</option>
 								<option id="gnu.cpp.link.option.paths.1187961519" name="Library search path (-L)" superClass="gnu.cpp.link.option.paths" useByScannerDiscovery="false" valueType="libPaths">
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MerlinLibrary/Release}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MerlinLibrary/Debug}&quot;"/>
 								</option>
 								<option id="gnu.cpp.link.option.other.1474086074" name="Other options (-Xlinker [option])" superClass="gnu.cpp.link.option.other" useByScannerDiscovery="false" valueType="stringList">
-									<listOptionValue builtIn="false" value="-rpath /home/scott/git/merlin-eclipse/MerlinLibrary/Release"/>
-									<listOptionValue builtIn="false" value="-rpath /home/scott/git/merlin-eclipse/MerlinLibrary/Debug"/>
+									<listOptionValue builtIn="false" value="-rpath ${workspace_loc:/MerlinLibrary/Debug}"/>
 								</option>
-								<option id="gnu.cpp.link.option.implname.444015118" superClass="gnu.cpp.link.option.implname" useByScannerDiscovery="false" value="" valueType="string"/>
-								<option id="gnu.cpp.link.option.shared.277914534" superClass="gnu.cpp.link.option.shared" useByScannerDiscovery="false" value="false" valueType="boolean"/>
+								<option id="gnu.cpp.link.option.implname.444015118" name="Import Library name (-Wl,--out-implib=)" superClass="gnu.cpp.link.option.implname" useByScannerDiscovery="false" value="" valueType="string"/>
+								<option id="gnu.cpp.link.option.shared.277914534" name="Shared (-shared)" superClass="gnu.cpp.link.option.shared" useByScannerDiscovery="false" value="false" valueType="boolean"/>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.1183608062" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
@@ -106,14 +104,12 @@
 								</option>
 								<option id="gnu.cpp.link.option.paths.1537823552" name="Library search path (-L)" superClass="gnu.cpp.link.option.paths" valueType="libPaths">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MerlinLibrary/Release}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/MerlinLibrary/Debug}&quot;"/>
 								</option>
 								<option id="gnu.cpp.link.option.other.1468831537" name="Other options (-Xlinker [option])" superClass="gnu.cpp.link.option.other" useByScannerDiscovery="false" valueType="stringList">
-									<listOptionValue builtIn="false" value="-rpath /home/scott/git/merlin-eclipse/MerlinLibrary/Debug"/>
-									<listOptionValue builtIn="false" value="-rpath /home/scott/git/merlin-eclipse/MerlinLibrary/Release"/>
+									<listOptionValue builtIn="false" value="-rpath ${workspace_loc:/MerlinLibrary/Release}"/>
 								</option>
-								<option id="gnu.cpp.link.option.implname.1481920258" superClass="gnu.cpp.link.option.implname" value="" valueType="string"/>
-								<option id="gnu.cpp.link.option.shared.675392404" superClass="gnu.cpp.link.option.shared" value="false" valueType="boolean"/>
+								<option id="gnu.cpp.link.option.implname.1481920258" name="Import Library name (-Wl,--out-implib=)" superClass="gnu.cpp.link.option.implname" value="" valueType="string"/>
+								<option id="gnu.cpp.link.option.shared.675392404" name="Shared (-shared)" superClass="gnu.cpp.link.option.shared" value="false" valueType="boolean"/>
 								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.313800948" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>

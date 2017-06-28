@@ -44,7 +44,7 @@ all: UserProject
 UserProject: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: GCC C++ Linker'
-	g++ -L"/home/scott/git/merlin-eclipse/MerlinLibrary/Release" -L"/home/scott/git/merlin-eclipse/MerlinLibrary/Debug" -Xlinker -rpath /home/scott/git/merlin-eclipse/MerlinLibrary/Debug -Xlinker -rpath /home/scott/git/merlin-eclipse/MerlinLibrary/Release -o "UserProject" $(OBJS) $(USER_OBJS) $(LIBS)
+	g++ -L"/home/scott/git/merlin-eclipse/MerlinLibrary/Release" -Xlinker -rpath /home/scott/git/merlin-eclipse/MerlinLibrary/Release -o "UserProject" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
